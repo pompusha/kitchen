@@ -1,0 +1,106 @@
+.testimonial-container{
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+background-color: #EEEEEE;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  gap: 169.4px;
+  margin-bottom: 93px;
+}
+
+.testimonial-text-container{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.testimonial-h2{
+  text-align: center;
+  font-weight: 500;
+  height: 18px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #D4B254;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Roboto-Regular;
+  margin-bottom: 17px;
+}
+
+.testimonial-h1{
+  width: 600px;
+  height: 84px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 24px;
+  font-family: Helvetica-Bold;
+
+}
+
+.testimonial-p{
+
+  width: 600px;
+  height: 96px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 11px;
+}
+.testimonial-name{
+  width: 90px;
+  height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: Roboto-Regular;
+  margin-bottom: 36px;
+
+}
+
+.testimonial-button{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  width: 419px;
+  height: 60px;
+  background: #D4B254 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: Roboto-Regular;
+}
+
+.testimonial-button:hover {
+  background-color: rgba(212, 178, 84, 0); 
+   transform: translateY(-1px);
+   color:#D4B254;
+   border: 1px solid #D4B254;
+
+}
+.testimonial-button:active{
+  transform: translateY(0);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+} 
