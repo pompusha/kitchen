@@ -26,9 +26,7 @@
   justify-content: center;
   gap:20px;
   margin-bottom: 40px;
-  flex-wrap: wrap;
-  /*  */
-   overflow-x: auto;
+
   white-space: nowrap;
   width: 100%;
 
