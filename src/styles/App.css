@@ -5,13 +5,18 @@
   box-sizing: border-box;
   /* outline: 1px solid red; */
 }
-
+html, body {
+  overflow-x: auto;
+ white-space: wrap
+}
 
 
 .App{
-  width: 2000px;
+  max-width: 2000px;
+  width: 100%;
   padding: 0;
   margin: 0 auto;
+ 
 
 }
 
@@ -24,9 +29,26 @@ margin-bottom: 2px;
    
 }
 
+@media (max-width: 1500px){
+.info-flex-box{
+  height: 100% !important;
+}
+.info-h{
+  font-size: 24px !important ;
+    line-height: 32px !important;
+    margin-bottom: 14px !important;
+}
+.info-div{
+   display: inline-block !important; 
+   height: auto !important;
+}
+
+}
+
+
 @media (max-width: 1000px) {
   .App {
-   width: 1000px;
+   width: 100%;
   }
   .header-wrapper{
     padding: 0px 10px;
