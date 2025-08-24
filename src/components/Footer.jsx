@@ -59,8 +59,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-copyright">
-        Copyright Online MTC Home Kitchens 2018 - All rights reserved.
-        Responsive website design, Development & Hosting by mtc.
+              
       </div>
     </div>
   );

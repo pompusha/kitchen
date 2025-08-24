@@ -4,7 +4,7 @@ import right from "../assets/images/testimonial/right.png";
 export default function Testimonials() {
   return (
     <div className="testimonial-container">
-      <div>
+      <div className="arrow">
         <img src={left} alt="left" />
       </div>
       <div className="testimonial-text-container">
@@ -22,7 +22,7 @@ export default function Testimonials() {
           <div className="testimonial-button">Frequently Asked Questions</div>
         </a>
       </div>
-      <div>
+      <div className="arrow">
         <img src={right} alt="right" />
       </div>
     </div>

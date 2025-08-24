@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 html,
@@ -16,7 +16,7 @@ body {
 
 .App {
   max-width: 2000px;
-  min-width: 1000px;
+  /* min-width: 1000px; */
   width: 100%;
   padding: 0;
   margin: 0 auto;
@@ -28,12 +28,17 @@ body {
   padding-top: 30px;
   height: 900px;
   background: transparent url('../assets/images/heroimg/Bitmap.png') 0% 0% no-repeat padding-box;
+  /* background-size: contain;  */
+   background-position: center center;
   position: relative;
   margin-bottom: 2px;
 
 }
 
 @media (max-width: 1500px) {
+  .hero-wrapper{
+    width: 100% !important
+  }
   .info-flex-box {
     height: 100% !important;
   }
@@ -48,7 +53,18 @@ body {
     display: inline-block !important;
     height: auto !important;
   }
+.info-img{
+  width: 100%;
 
+}
+  
+.info-img > img {
+max-width: 100%;
+height: auto;
+}
+.footer-content-container{
+  width: 65% !important;
+}
 }
 
 
@@ -97,7 +113,7 @@ body {
   }
 
   .footer-content-container {
-    width: 70% !important;
+    width: 95% !important;
   }
 
   .info-div {
@@ -123,8 +139,41 @@ body {
   .footer-line {
     width: 100% !important;
   }
+  
 
   .footer-shop-logo {
     width: 100% !important;
   }
+  .testimonial-h1, .testimonial-p{
+    width: 100% !important;
+  }
+.testimonial-h2, .testimonial-h1,.testimonial-p{
+  height: auto !important;
+}
+
+   .header-button{
+
+    font-size: 0 !important;
+    gap: 0 !important;
+    letter-spacing: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+  }
+  .social-wrapper{
+    width: 100%;
+  }
+  .gallery-container{
+    padding: 1rem
+  }
+  .about-gallery {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width:632px) {
+  .header-menu, .arrow,.footer-content-container{
+    display: none !important;
+  }
+ 
 }

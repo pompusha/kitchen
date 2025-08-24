@@ -14,7 +14,8 @@
   margin-bottom: 48px;
 }
 .footer-shop-logo{
-  width: 1300px;
+  width: 100%;
+  /* width: 1300px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +67,6 @@ margin-bottom: 35px;
 }
 
 .foter-link-wrapper{
-
   height: 108px;
   display: flex;
   flex-direction: column;

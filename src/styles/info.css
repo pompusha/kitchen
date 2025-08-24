@@ -6,8 +6,8 @@
   
 }
 .info-img {
-  width: 1000px;
-  height: 667px;
+  /* width: 1000px;
+  height: 667px; */
   background-color: antiquewhite;
  
 }
@@ -22,7 +22,6 @@
 }
 .info-flex-box{
   height: 331px;
-  
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
